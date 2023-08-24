@@ -34,7 +34,7 @@ const Services = () => {
       </div>
       <div className="row flex justify-center dark:bg-transparent dark:bg-opacity-50  w-full h-full p-5 items-center ">
         <div className="col flex justify-center flex-col items-center w-full h-full">
-          <p className="text-pink-300 dark:text-pink-900 mt-[10rem] md:mt-[650px] lg:mt-[50px] text-xs md:text-[14px] lg:text-lg">
+          <p className="text-pink-300 dark:text-pink-900 mt-[110rem] md:mt-[50rem] lg:mt-[250px] text-xs md:text-[14px] lg:text-lg">
             What i will do for you
           </p>
           <h1 className="text-[40px] font-extrabold text-green-500 mb-10 lg:text-[50px] my-3 md:text-[40px] md:text-3xl">
