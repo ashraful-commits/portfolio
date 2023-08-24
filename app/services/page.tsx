@@ -56,7 +56,7 @@ const Services = () => {
             </div>
             <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaShoppingCart className="text-[40px] text-pink-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-pink-700  dark:text-pink-500">
                 Custom Web Applications
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -68,7 +68,7 @@ const Services = () => {
             </div>
             <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaCode className="text-[40px] text-blue-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-blue-700 dark:text-blue-500">
                 API Development
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -81,7 +81,7 @@ const Services = () => {
             </div>
             <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaDatabase className="text-[40px] text-yellow-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-yellow-700 dark:text-yellow-500">
                 Database Management
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -92,7 +92,7 @@ const Services = () => {
             </div>
             <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaReact className="text-[40px] text-red-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-red-700 dark:text-red-500">
                 Front-End Development
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -103,7 +103,7 @@ const Services = () => {
             </div>
             <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaServer className="text-[40px] text-purple-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-purple-700 dark:text-purple-500">
                 Back-End Development
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -115,7 +115,7 @@ const Services = () => {
             </div>
             <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaCloudUploadAlt className="text-[40px] text-amber-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-amber-700 dark:text-amber-500">
                 Deployment and Hosting
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -127,7 +127,7 @@ const Services = () => {
             </div>
             <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaUsers className="text-[40px] text-cyan-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-cyan-700 dark:text-cyan-500">
                 Collaboration and Communication
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -139,7 +139,7 @@ const Services = () => {
             </div>
             <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaFolderOpen className="text-[40px] text-indigo-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-indigo-700 dark:text-indigo-500">
                 Case Studies and Projects
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
