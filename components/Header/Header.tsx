@@ -41,7 +41,7 @@ const Header = () => {
           menu ? "opacity-100" : "opacity-0"
         } lg:opacity-100 md:opacity-100 `}
       >
-        <div className="w-[4rem] flex flex-col transition-all duration-100 delay-75  bg-gray-100 dark:bg-gray-700  text-white h-full items-center justify-center">
+        <div className="w-[4rem] flex flex-col transition-all duration-100 delay-75  bg-gray-200 dark:bg-gray-700  text-white h-full items-center justify-center">
           <div className="logo h-[100px] group  relative ">
             <span className="absolute -top-[60%] cursor-pointer left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-xl rounded-bl-none text-white">
               {isDarkTheme ? "light" : "dark"}
@@ -132,7 +132,7 @@ const Header = () => {
       </div>
       <button
         onClick={handTogglemenu}
-        className=" rounded-full fixed text-dark lg:hidden md:hidden opacity-100 bg-orange-500  p-2 left-[4%] z-[10000] top-[1%] "
+        className=" rounded-full fixed text-dark lg:hidden md:hidden opacity-100 bg-orange-500  p-2 left-[2%] z-[10000] top-[1%] "
       >
         {menu ? (
           <AiOutlineClose className="text-white font-bold" />

@@ -39,8 +39,8 @@ const Home: FC = () => {
                 src={myphoto}
                 alt="photo"
               />
-              <h1 className="mt-14 text-center hover:scale-y-150 hover:scale-x-150 transition-all duration-200   text-blue-400 lg:text-blue-400 md:text-blue-400  dark:md:text-blue-100 lg:text-4xl uppercase font-extrabold text-[2em]">
-                <span className="capitalize  text-orange-200 dark:text-orange-400 lg:text-orange-400 md:text-orange-400 dark:md:text-orange-00">
+              <h1 className="mt-14 text-center hover:scale-y-150 hover:scale-x-150 transition-all duration-200   text-blue-500 lg:text-blue-500 md:text-blue-400  dark:md:text-blue-500 lg:text-4xl uppercase font-extrabold text-[2em]">
+                <span className="capitalize  text-orange-500 dark:text-orange-500 lg:text-orange-400 md:text-orange-500 dark:md:text-orange-500">
                   Hi
                 </span>
                 , i &apos;m
@@ -67,19 +67,19 @@ const Home: FC = () => {
               </h4>
               <div className="mt-10 flex gap-4">
                 <Link className="text-blue-100 relative group" href={""}>
-                  <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-gray-200 w-full h-full"></span>
+                  <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-blue-200 w-full h-full"></span>
                   <FaFacebook className="text-3xl hover:scale-150 transition-all duration-100 text-gray-700 rounded-full p-2 group-hover:text-blue-500" />
                 </Link>
                 <Link className="text-blue-100 relative group" href={""}>
-                  <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-gray-200 w-full h-full"></span>
+                  <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-blue-200 w-full h-full"></span>
                   <FaLinkedinIn className="text-3xl hover:scale-150 transition-all duration-100 text-gray-700  p-2 group-hover:text-blue-900" />
                 </Link>
                 <Link className="text-blue-100 relative group" href={""}>
-                  <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-gray-200 w-full h-full"></span>
+                  <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-blue-200 w-full h-full"></span>
                   <FaGithub className="text-3xl hover:scale-150 transition-all duration-100 text-gray-700 rounded-full p-2 group-hover:text-gray-500" />
                 </Link>
                 <Link className="text-blue-100 relative group" href={""}>
-                  <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-gray-200 w-full h-full"></span>
+                  <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-blue-200 w-full h-full"></span>
                   <FaExternalLinkAlt className="text-3xl hover:scale-150 transition-all duration-100 text-gray-700  p-2 group-hover:text-orange-500" />
                 </Link>
               </div>
