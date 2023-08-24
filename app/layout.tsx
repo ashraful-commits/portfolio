@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`{$inter.className } flex`}>
-        <div className="container-fluid flex darK:bg-red-500  justify-center w-screen h-screen items-center ">
+        <div className="container-fluid flex darK:bg-red-500  justify-center w-screen h-auto items-center">
           <div className="row flex justify-center items-center w-full h-full ">
             <div className="col flex justify-between items-center  w-full h-full">
               <ThemProvider>
