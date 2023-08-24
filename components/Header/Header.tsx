@@ -57,7 +57,7 @@ const Header = () => {
             {isDarkTheme ? (
               <Image
                 alt="logo"
-                className="w-8 h-8 lg:w-10 lg:h-10"
+                className="w-6 h-6 lg:w-10 md:w-7 md:h-7 lg:h-10"
                 src={logo}
               />
             ) : (
@@ -88,6 +88,14 @@ const Header = () => {
               </li>
               <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                  Experience
+                </span>
+                <Link href={"/experience"} className="w-full h-full">
+                  <MdCastForEducation className="lg:text-xl group-hover:text-white text-purple-500" />
+                </Link>
+              </li>
+              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
                   Portfolio
                 </span>
                 <Link href={"/protfolio"} className="w-full h-full ">
@@ -104,26 +112,18 @@ const Header = () => {
               </li>
               <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
-                  Blog
-                </span>
-                <Link href={"/blog"}>
-                  <FaBlog className="lg:text-xl group-hover:text-white text-pink-500" />
-                </Link>
-              </li>
-              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
-                  Experience
-                </span>
-                <Link href={"/experience"} className="w-full h-full">
-                  <MdCastForEducation className="lg:text-xl group-hover:text-white text-purple-500" />
-                </Link>
-              </li>
-              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
                   Contact
                 </span>
                 <Link href={"/contact"} className="w-full h-full">
                   <AiFillMessage className="lg:text-xl group-hover:text-white text-indigo-500" />
+                </Link>
+              </li>
+              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                  Blog
+                </span>
+                <Link href={"/blog"}>
+                  <FaBlog className="lg:text-xl group-hover:text-white text-pink-500" />
                 </Link>
               </li>
             </ul>

@@ -43,7 +43,7 @@ const Home: FC = () => {
                 <span className="capitalize  text-orange-500 dark:text-orange-500 lg:text-orange-400 md:text-orange-500 dark:md:text-orange-500">
                   Hi
                 </span>
-                , i &apos;m
+                , i&apos;m
               </h1>
 
               <h1 className="mt-5 text-center hover:scale-y-150 md:hover:scale-110 lg:hover:scale-x-150 hover:scale-x-105 transition-all duration-200  text-blue-400 lg:text-blue-400 md:text-blue-400  dark:md:text-blue-100 lg:text-4xl uppercase font-extrabold text-[1.5em] md:text-[2rem]">
