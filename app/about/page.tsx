@@ -52,7 +52,7 @@ const About = () => {
               today.
             </p>
 
-            <div className="proessbar px-4 mt-5">
+            <div className=" px-4 dark:bg-white mt-5">
               <div className="mb-1 font-medium text-green-700 mt-2 text-left dark:text-green-500">
                 Frontend
               </div>

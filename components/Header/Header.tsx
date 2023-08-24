@@ -122,7 +122,7 @@ const Header = () => {
       </div>
       <button
         onClick={handTogglemenu}
-        className="absolute rounded-full text-dark lg:hidden md:hidden opacity-100 bg-orange-500  p-2 left-[4%] z-[10000] top-[2%] "
+        className=" rounded-full fixed text-dark lg:hidden md:hidden opacity-100 bg-orange-500  p-2 left-[4%] z-[10000] top-[2%] "
       >
         {menu ? (
           <AiOutlineClose className="text-white font-bold" />
