@@ -27,7 +27,7 @@ const Home: FC = () => {
           </div>
           <div className="absolute opacity-0 dark:opacity-100 bg-black w-full h-full top-0 left-0">
             <Image
-              className=" object-cover opacity-0 dark:opacity-100 dark:md:opacity-50  dark:lg:opacity-100 w-full h-full"
+              className=" object-cover opacity-0 dark:opacity-40 dark:md:opacity-50  dark:lg:opacity-100 w-full h-full"
               src={herobg4}
               alt="herobg"
             />

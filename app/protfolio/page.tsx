@@ -9,6 +9,7 @@ import gallary6 from "../../public/gallery6.jpg";
 import gallary7 from "../../public/gallary7.jpg";
 import gallary8 from "../../public/gallary8.jpg";
 import Image from "next/image";
+import aboutbg3 from "../../public/bgabout2.png";
 import Link from "next/link";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 const Portfolio = () => {
@@ -104,14 +105,21 @@ const Portfolio = () => {
   ];
   return (
     <div className="container-fluid  h-screen w-screen flex justify-center relative items-center">
-      <div className="about-bg absolute  w-full h-full top-0 left-0 z-[-1]">
+      <div className="about-bg absolute  w-full h-full top-0  left-0 z-[-1]">
         <Image
           src={portfoliobg}
-          className="w-full z-[-1]   h-full object-cover"
+          className="w-full z-[-1] lg:opacity-50  h-full object-cover"
           alt="about-bg"
         />
       </div>
-      <div className="row flex justify-center bg-white bg-opacity-[80%] w-full h-full p-5 items-center ">
+      <div className="absolute opacity-0 dark:opacity-100 bg-black w-full h-full z-[-1] top-0 left-0">
+        <Image
+          className=" object-cover  opacity-[35%] w-full h-full"
+          src={aboutbg3}
+          alt="herobg"
+        />
+      </div>
+      <div className="row flex justify-center bg-white dark:bg-black dark:bg-opacity-20 bg-opacity-[80%] w-full h-full p-5 items-center ">
         <div className="col  lg:w-[70vw] md:w-[80vw] h-full flex items-center justify-center flex-col">
           <h1 className="text-3xl font-extrabold text-yellow-500 mt-2">
             All Projects
@@ -162,7 +170,7 @@ const Portfolio = () => {
                   key={index}
                   className="project w-[100%]  lg:w-[23%] md:w-[30%] group h-[25rem] relative lg:h-[20rem]  overflow-hidden"
                 >
-                  <div className=" p-1 bg-orange-200 w-full h-full">
+                  <div className=" p-1 dark:bg-gray-200 bg-gray-100 w-full h-full">
                     <div className=" overflow-hidden w-full h-full">
                       <Image
                         className="w-full h-full object-cover"
