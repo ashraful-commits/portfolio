@@ -83,7 +83,7 @@ const Home: FC = () => {
                   <FaExternalLinkAlt className="text-3xl hover:scale-150 transition-all duration-100 text-gray-700  p-2 group-hover:text-orange-500" />
                 </Link>
               </div>
-              <button className="mt-10 bg-orange-300 px-8 py-2 rounded-full text-md hover:bg-orange-600 text-white transition-all dark:bg-orange-500 duration-100 font-bold">
+              <button className="mt-10 bg-orange-500 px-8 py-2 rounded-full text-md hover:bg-orange-600 text-white transition-all dark:bg-orange-500 duration-100 font-bold">
                 Hire
               </button>
             </div>
