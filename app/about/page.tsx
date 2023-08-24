@@ -4,7 +4,7 @@ import ashraful from "../../public/developer.jpg";
 import aboutbg from "../../public/herobg3.jpg";
 const About = () => {
   return (
-    <div className="container-fluid  h-screen w-screen flex justify-center relative items-center">
+    <div className="container-fluid  h-auto w-screen flex justify-center relative items-center">
       <div className="about-bg absolute  w-full h-full top-0 left-0 z-[-1]">
         <Image
           src={aboutbg}
