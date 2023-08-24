@@ -21,29 +21,29 @@ const Services = () => {
       <div className="about-bg absolute  w-full h-full top-0  left-0 z-[-1]">
         <Image
           src={aboutbg}
-          className="w-full z-[-1] lg:opacity-50  h-full object-cover"
+          className="w-full z-[-1] lg:opacity-40 opacity-40  h-full object-cover"
           alt="about-bg"
         />
       </div>
       <div className="absolute opacity-0 dark:opacity-100 bg-black w-full h-full z-[-1] top-0 left-0">
         <Image
-          className=" object-cover  opacity-[35%] w-full h-full"
+          className=" object-cover dark:opacity-20 w-full h-full"
           src={aboutbg3}
           alt="herobg"
         />
       </div>
-      <div className="row flex justify-center dark:bg-transparent dark:bg-opacity-50  bg-white bg-opacity-[80%] w-full h-full p-5 items-center ">
+      <div className="row flex justify-center dark:bg-transparent dark:bg-opacity-50  w-full h-full p-5 items-center ">
         <div className="col flex justify-center flex-col items-center w-full h-full">
-          <p className="text-pink-300 dark:text-pink-900 mt-[115rem] md:mt-[650px] lg:mt-[50px] text-xs">
+          <p className="text-pink-300 dark:text-pink-900 mt-[10rem] md:mt-[650px] lg:mt-[50px] text-xs md:text-[14px] lg:text-lg">
             What i will do for you
           </p>
-          <h1 className="text-[40px] font-extrabold text-green-500 mb-10 lg:text-4xl md:text-3xl">
+          <h1 className="text-[40px] font-extrabold text-green-500 mb-10 lg:text-[50px] my-3 md:text-[40px] md:text-3xl">
             Service
           </h1>
           <div className="services  flex flex-col justify-center items-center lg:flex-row gap-5 md:flex-row flex-wrap">
-            <div className="service border rounded-xl p-5 w-[70%] lg:w-[20%] md:w-[33%] h-auto py-5 bg-green-200 bg-opacity-50 dark:bg-black dark:border dark:border-green-200 flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[15rem]  justify-center flex flex-col items-center">
               <FaLaptop className="text-[40px] text-green-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-2 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Web Development
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -54,9 +54,9 @@ const Services = () => {
                 goals.
               </p>
             </div>
-            <div className="service border rounded-xl p-5 w-[70%] lg:w-[20%] md:w-[33%] h-auto py-5 bg-green-200 bg-opacity-50 dark:bg-black dark:border dark:border-green-200 flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[15rem]  justify-center flex flex-col items-center">
               <FaShoppingCart className="text-[40px] text-pink-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-2 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Custom Web Applications
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -66,9 +66,9 @@ const Services = () => {
                 your unique ideas to life
               </p>
             </div>
-            <div className="service border rounded-xl p-5 w-[70%] lg:w-[20%] md:w-[33%] h-auto py-5 bg-green-200 bg-opacity-50 dark:bg-black dark:border dark:border-green-200 flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[15rem]  justify-center flex flex-col items-center">
               <FaCode className="text-[40px] text-blue-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-2 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 API Development
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -79,9 +79,9 @@ const Services = () => {
                 and back-end.
               </p>
             </div>
-            <div className="service border rounded-xl p-5 w-[70%] lg:w-[20%] md:w-[33%] h-auto py-5 bg-green-200 bg-opacity-50 dark:bg-black dark:border dark:border-green-200 flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[15rem]  justify-center flex flex-col items-center">
               <FaDatabase className="text-[40px] text-yellow-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-2 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Database Management
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -90,9 +90,9 @@ const Services = () => {
                 and enhancing performance by optimizing queries and indexing.
               </p>
             </div>
-            <div className="service border rounded-xl p-5 w-[70%] lg:w-[20%] md:w-[33%] h-auto py-5 bg-green-200 bg-opacity-50 dark:bg-black dark:border dark:border-green-200 flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[15rem]  justify-center flex flex-col items-center">
               <FaReact className="text-[40px] text-red-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-2 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Front-End Development
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -101,9 +101,9 @@ const Services = () => {
                 seamless user interactions and engaging visual experiences.
               </p>
             </div>
-            <div className="service border rounded-xl p-5 w-[70%] lg:w-[20%] md:w-[33%] h-auto py-5 bg-green-200 bg-opacity-50 dark:bg-black dark:border dark:border-green-200 flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[15rem]  justify-center flex flex-col items-center">
               <FaServer className="text-[40px] text-purple-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-2 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Back-End Development
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -113,9 +113,9 @@ const Services = () => {
                 architecture.
               </p>
             </div>
-            <div className="service border rounded-xl p-5 w-[70%] lg:w-[20%] md:w-[33%] h-auto py-5 bg-green-200 bg-opacity-50 dark:bg-black dark:border dark:border-green-200 flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[15rem]  justify-center flex flex-col items-center">
               <FaCloudUploadAlt className="text-[40px] text-amber-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-2 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Deployment and Hosting
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -125,9 +125,9 @@ const Services = () => {
                 Heroku, or Netlify.
               </p>
             </div>
-            <div className="service border rounded-xl p-5 w-[70%] lg:w-[20%] md:w-[33%] h-auto py-5 bg-green-200 bg-opacity-50 dark:bg-black dark:border dark:border-green-200 flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[15rem]  justify-center flex flex-col items-center">
               <FaUsers className="text-[40px] text-cyan-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-2 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Collaboration and Communication
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
@@ -137,9 +137,9 @@ const Services = () => {
                 requirements.
               </p>
             </div>
-            <div className="service border rounded-xl p-5 w-[70%] lg:w-[20%] md:w-[33%] h-auto py-5 bg-green-200 bg-opacity-50 dark:bg-black dark:border dark:border-green-200 flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[15rem]  justify-center flex flex-col items-center">
               <FaFolderOpen className="text-[40px] text-indigo-500" />
-              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-2 text-green-700 dark:text-green-500">
+              <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Case Studies and Projects
               </h4>
               <p className="text-sm text-green-900 dark:text-green-100 text-justify">
