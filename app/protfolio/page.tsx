@@ -121,7 +121,7 @@ const Portfolio = () => {
       </div>
       <div className="row flex justify-center bg-white dark:bg-black dark:bg-opacity-20 bg-opacity-[80%] w-full h-full p-5 items-center ">
         <div className="col  lg:w-[70vw] md:w-[80vw] h-full flex items-center justify-center flex-col">
-          <h1 className="text-3xl font-extrabold text-yellow-500 mt-2">
+          <h1 className="text-3xl uppercase font-extrabold text-yellow-500 mt-2">
             All Projects
           </h1>
           <div className="menu mt-10 flex justify-center items-center">

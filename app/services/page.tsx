@@ -34,14 +34,14 @@ const Services = () => {
       </div>
       <div className="row flex justify-center dark:bg-transparent dark:bg-opacity-50  w-full h-full p-5 items-center ">
         <div className="col flex justify-center flex-col items-center w-full h-full">
-          <p className="text-pink-300 dark:text-pink-900  text-xs md:text-[14px] lg:text-lg">
+          <p className="text-pink-300 dark:text-pink-900  text-sm md:text-[16px] lg:text-lg">
             What i will do for you
           </p>
-          <h1 className="text-[40px] font-extrabold text-green-500 mb-10 lg:text-[50px] my-3 md:text-[40px] md:text-3xl">
+          <h1 className="text-[36px] font-extrabold text-green-500 mb-10 lg:text-[42px]  uppercase md:text-[40px] md:text-3xl">
             Service
           </h1>
           <div className="services  flex flex-col justify-center items-center lg:flex-row gap-5 md:flex-row flex-wrap">
-            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaLaptop className="text-[40px] text-green-500" />
               <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Web Development
@@ -54,7 +54,7 @@ const Services = () => {
                 goals.
               </p>
             </div>
-            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaShoppingCart className="text-[40px] text-pink-500" />
               <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Custom Web Applications
@@ -66,7 +66,7 @@ const Services = () => {
                 your unique ideas to life
               </p>
             </div>
-            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaCode className="text-[40px] text-blue-500" />
               <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 API Development
@@ -79,7 +79,7 @@ const Services = () => {
                 and back-end.
               </p>
             </div>
-            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaDatabase className="text-[40px] text-yellow-500" />
               <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Database Management
@@ -90,7 +90,7 @@ const Services = () => {
                 and enhancing performance by optimizing queries and indexing.
               </p>
             </div>
-            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaReact className="text-[40px] text-red-500" />
               <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Front-End Development
@@ -101,7 +101,7 @@ const Services = () => {
                 seamless user interactions and engaging visual experiences.
               </p>
             </div>
-            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaServer className="text-[40px] text-purple-500" />
               <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Back-End Development
@@ -113,7 +113,7 @@ const Services = () => {
                 architecture.
               </p>
             </div>
-            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaCloudUploadAlt className="text-[40px] text-amber-500" />
               <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Deployment and Hosting
@@ -125,7 +125,7 @@ const Services = () => {
                 Heroku, or Netlify.
               </p>
             </div>
-            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaUsers className="text-[40px] text-cyan-500" />
               <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Collaboration and Communication
@@ -137,7 +137,7 @@ const Services = () => {
                 requirements.
               </p>
             </div>
-            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex flex-col items-center">
+            <div className="service  rounded-xl lg:px-7 lg:py-7 md:px-5 md:py-5 p-5 w-[95%] lg:w-[28%] md:w-[43%] h-auto  bg-green-300 bg-opacity-50 dark:bg-gray-900  min-h-[20rem]  justify-center flex lg:max-w-[20%] lg:min-w-[20%] flex-col items-center">
               <FaFolderOpen className="text-[40px] text-indigo-500" />
               <h4 className="text-md md:text-xl text-center lg:text-xl font-bold my-5 text-green-700 dark:text-green-500">
                 Case Studies and Projects
