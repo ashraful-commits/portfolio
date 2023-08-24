@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div className="row flex justify-center   bg-white bg-opacity-[80%] w-full h-full p-5 items-center ">
         <div className="col flex flex-col gap-10  lg:gap-10 md:gap-5 lg:flex-row md:flex-row lg:p-7 px-2 py-2 items-center justify-between w-full h-full">
-          <div className="top  w-full flex justify-center items-center mt-16  rounded-2xl ">
+          <div className="top  mt-14 w-full flex justify-center items-center  rounded-2xl ">
             <Image
               src={ashraful}
               alt=" mohammad ashraful alam"
