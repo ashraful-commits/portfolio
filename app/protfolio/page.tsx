@@ -22,7 +22,7 @@ const Portfolio = () => {
         "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
       preview: gallary1,
       tools: ["React", "Redux toolkit", "React-lazy-loader", "Axios"],
-      type: "",
+      type: "ftp-serv",
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ const Portfolio = () => {
         "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
       preview: gallary2,
       tools: ["React", "Redux toolkit"],
-      type: "",
+      type: "e-commerce",
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ const Portfolio = () => {
         "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
       preview: gallary3,
       tools: ["React", "Redux toolkit"],
-      type: "",
+      type: "social",
     },
     {
       id: 4,
@@ -55,7 +55,7 @@ const Portfolio = () => {
         "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
       preview: gallary4,
       tools: ["React", "Redux toolkit"],
-      type: "",
+      type: "education",
     },
     {
       id: 5,
@@ -66,7 +66,7 @@ const Portfolio = () => {
         "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
       preview: gallary5,
       tools: ["React", "Redux toolkit"],
-      type: "",
+      type: "portfolio",
     },
     {
       id: 6,
@@ -77,7 +77,7 @@ const Portfolio = () => {
         "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
       preview: gallary6,
       tools: ["React", "Redux toolkit"],
-      type: "",
+      type: "e-commerce",
     },
     {
       id: 7,
@@ -88,7 +88,7 @@ const Portfolio = () => {
         "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
       preview: gallary7,
       tools: ["React", "Redux toolkit"],
-      type: "",
+      type: "social",
     },
     {
       id: 8,
@@ -99,7 +99,7 @@ const Portfolio = () => {
         "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
       preview: gallary8,
       tools: ["React", "Redux toolkit"],
-      type: "",
+      type: "education",
     },
   ];
   return (
@@ -119,35 +119,35 @@ const Portfolio = () => {
           <div className="menu mt-10 flex justify-center items-center">
             <ul className="flex gap-5 flex-wrap justify-center">
               <li>
-                <button className="border-2 bg-green-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
+                <button className=" bg-green-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
                   <Link className="text-white group-hover:text-white" href="/">
                     Portfolio
                   </Link>
                 </button>
               </li>
               <li>
-                <button className="border-2 bg-pink-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
+                <button className=" bg-pink-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
                   <Link className="text-white group-hover:text-white" href="/">
                     E-Commerce
                   </Link>
                 </button>
               </li>
               <li>
-                <button className="border-2 bg-purple-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
+                <button className=" bg-purple-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
                   <Link className="text-white group-hover:text-white" href="/">
                     Social
                   </Link>
                 </button>
               </li>
               <li>
-                <button className="border-2 bg-blue-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
+                <button className=" bg-blue-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
                   <Link className="text-white group-hover:text-white" href="/">
                     FTP Server
                   </Link>
                 </button>
               </li>
               <li>
-                <button className="border-2 bg-sky-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
+                <button className=" bg-sky-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1">
                   <Link className="text-white group-hover:text-white" href="/">
                     Education
                   </Link>

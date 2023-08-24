@@ -3,6 +3,7 @@ import { FC } from "react";
 import myphoto from "../public/myphoto.png";
 
 import herobg3 from "../public/herobg3.jpg";
+import herobg4 from "../public/quantam computer.png";
 import Link from "next/link";
 import { AiFillCiCircle, AiFillFacebook } from "react-icons/ai";
 import {
@@ -14,17 +15,24 @@ import {
 
 const Home: FC = () => {
   return (
-    <div className="container-fulid w-screen h-screen relative z-[200] ">
+    <div className="container-fluid w-screen h-screen relative z-[200] ">
       <div className="row w-full h-full">
         <div className="col relative  w-full h-full flex flex-col justify-center items-center ">
-          <div className="absolute w-full h-full  z-0 top-0 left-0">
+          <div className="absolute w-full h-full top-0 left-0">
             <Image
-              className=" object-cover opacity-[30%] lg:opacity-100 dark:md:opacity-[30%] w-full h-full"
+              className=" object-cover dark:opacity-0 lg:opacity-100 md:opacity-[30%] opacity-[50%] w-full h-full"
               src={herobg3}
               alt="herobg"
             />
           </div>
-          <div className=" w-full flex flex-col lg:flex-row md:flex-row z-100 h-full">
+          <div className="absolute opacity-0 dark:opacity-100 bg-black w-full h-full top-0 left-0">
+            <Image
+              className=" object-cover opacity-0 dark:opacity-100 dark:md:opacity-50  dark:lg:opacity-100 w-full h-full"
+              src={herobg4}
+              alt="herobg"
+            />
+          </div>
+          <div className=" w-full flex flex-col lg:flex-row  z-100 h-full">
             <div className="w-full flex-col lg:h-full lg:w-[50%] flex items-center z-[500] h-[50%]">
               <Image
                 className="w-[15rem] hover:scale-110 transition-all delay-75 hover:skew-z-6  lg:w-[20rem] mt-20  h-auto "
