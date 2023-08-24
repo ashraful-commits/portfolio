@@ -29,7 +29,7 @@ const Header = () => {
   };
   useEffect(() => {
     window.document.addEventListener("click", handleToggleMenu);
-    console.log(window);
+
     return () => {
       window.document.removeEventListener("click", handleToggleMenu);
     };
