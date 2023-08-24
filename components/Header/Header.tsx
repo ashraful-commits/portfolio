@@ -11,7 +11,7 @@ import { BsFillBriefcaseFill } from "react-icons/bs";
 import { FaBlog } from "react-icons/fa";
 import { MdCastForEducation } from "react-icons/md";
 import { useTheme } from "next-themes";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import logo from "../../public/devloper ashraful-dark.png";
 import logoMoon from "../../public/devloper ashraful.png";
@@ -24,6 +24,16 @@ const Header = () => {
   const handTogglemenu = () => {
     setMenu(!menu);
   };
+  const handleToggleMenu = () => {
+    setMenu(false);
+  };
+  useEffect(() => {
+    window.document.addEventListener("click", handleToggleMenu);
+    console.log(window);
+    return () => {
+      window.document.removeEventListener("click", handleToggleMenu);
+    };
+  });
   return (
     <>
       <div
