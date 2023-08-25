@@ -154,8 +154,10 @@ const Portfolio = () => {
             All <span className="text-red-500">Projects</span>
           </motion.h1>
           <motion.div
-            className={`menu mt-10 flex justify-center z-20 items-center ${
-              isFixed ? "top-0 fixed bg-white" : ""
+            className={`menu w-full py-2  flex justify-center z-20 items-center ${
+              isFixed
+                ? "top-0 fixed bg-white dark:bg-gray-900 mt-0 px-2"
+                : "mt-10"
             }`}
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
