@@ -163,7 +163,7 @@ const Portfolio = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            <ul className="flex gap-5 flex-wrap justify-center">
+            <ul className="flex gap-2 flex-wrap justify-center">
               <li>
                 <button
                   onClick={() => setSelectedType("all")}
