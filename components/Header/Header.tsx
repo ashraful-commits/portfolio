@@ -53,20 +53,21 @@ const Header = () => {
             <span className="absolute -top-[60%] cursor-pointer left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-xl rounded-bl-none text-white">
               Developer Ashraful
             </span>
-
-            {isDarkTheme ? (
-              <Image
-                alt="logo"
-                className="w-6 h-6 lg:w-10 md:w-7 md:h-7 lg:h-10"
-                src={logo}
-              />
-            ) : (
-              <Image
-                alt="logo"
-                className="w-8 h-8 lg:w-10 lg:h-10"
-                src={logoMoon}
-              />
-            )}
+            <Link href={"/"}>
+              {isDarkTheme ? (
+                <Image
+                  alt="logo"
+                  className="w-6 h-6 lg:w-10 md:w-7 md:h-7 lg:h-10"
+                  src={logo}
+                />
+              ) : (
+                <Image
+                  alt="logo"
+                  className="w-8 h-8 lg:w-10 lg:h-10"
+                  src={logoMoon}
+                />
+              )}
+            </Link>
           </div>
           <div className="menu   ">
             <ul className="flex flex-col gap-5 ">
