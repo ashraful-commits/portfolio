@@ -50,10 +50,10 @@ const Contact = () => {
                 className="w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] rounded-xl mt-5 z-10 object-cover absolute "
               />
               <div className="z-20 absolute top-[10%] flex items-center justify-start flex-col w-full">
-                <p className="flex justify-center items-center gap-5 text-purple-500 text-xl">
+                <p className="flex justify-center items-center gap-2 text-purple-500 text-xl">
                   Hi, Let&apos;s Quick chat <AiFillMessage />
                 </p>
-                <p className="text-md mb-2 text-purple-800">
+                <p className="text-md mb-2 text-purple-800 dark:text-purple-200">
                   I reply within 24 hours
                 </p>
                 <button className="flex bg-purple-500 text-white px-2 py-1 gap-2 justify-center items-center">
