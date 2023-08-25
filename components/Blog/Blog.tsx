@@ -187,10 +187,10 @@ const Blog = () => {
             </motion.div>
           </motion.div>
           <motion.div
-            className={`flex w-full flex-wrap gap-2 justify-center my-5 py-5 border-b-2 border-b-pink-700 z-20  mt-4 ${
+            className={`flex w-full flex-wrap gap-2 justify-center  py-5 border-b-2 border-b-pink-700 z-20  ${
               isFixed
-                ? "fixed top-0 left-0 bg-white dark:bg-gray-900 mt-0 transition-all  duration-1000"
-                : ""
+                ? "fixed top-0 left-0 bg-white dark:bg-gray-900 mt-0 transition-all duration-1000"
+                : "my-5  mt-4"
             }`}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -206,8 +206,8 @@ const Blog = () => {
             </button>
             <button
               onClick={() => setSelectedCategory("react")}
-              className={`category-btn px-4 py-2 text-white bg-blue-500 hover:bg-blue-600 hover:shadow-md transition-colors ${
-                selectedCategory === "react" ? "bg-blue-600" : "bg-blue-500"
+              className={`category-btn px-4 py-2 text-white bg-red-500 hover:bg-red-600 hover:shadow-md transition-colors ${
+                selectedCategory === "react" ? "bg-red-600" : "bg-red-500"
               }`}
             >
               React

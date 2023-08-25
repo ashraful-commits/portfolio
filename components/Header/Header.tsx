@@ -71,39 +71,39 @@ const Header = () => {
           </div>
           <div className="menu   ">
             <ul className="flex flex-col gap-5 ">
-              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+              <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[95%] left-[95%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
                   Home
                 </span>
                 <Link href={"/"} className="w-full h-full">
-                  <AiFillHome className="lg:text-xl group-hover:text-white text-red-500" />
+                  <AiFillHome className="lg:text-xl group-hover:text-white w-full h-full text-red-500" />
                 </Link>
               </li>
-              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+              <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
                   About
                 </span>
                 <Link href={"/about"} className="w-full h-full">
-                  <AiFillInfoCircle className="lg:text-xl group-hover:text-white text-blue-500" />
+                  <AiFillInfoCircle className="lg:text-xl group-hover:text-white w-full h-full text-blue-500" />
                 </Link>
               </li>
-              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+              <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
                   Skills
                 </span>
                 <Link href={"/experience"} className="w-full h-full">
-                  <MdCastForEducation className="lg:text-xl group-hover:text-white text-purple-500" />
+                  <MdCastForEducation className="lg:text-xl group-hover:text-white w-full h-full text-purple-500" />
                 </Link>
               </li>
-              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+              <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
                   Portfolio
                 </span>
                 <Link href={"/protfolio"} className="w-full h-full ">
-                  <BsFillBriefcaseFill className="lg:text-xl group-hover:text-white text-yellow-500" />
+                  <BsFillBriefcaseFill className="lg:text-xl group-hover:text-white w-full h-full text-yellow-500" />
                 </Link>
               </li>
-              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+              <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
                   Services
                 </span>
@@ -111,20 +111,20 @@ const Header = () => {
                   <BsFillBriefcaseFill className="lg:text-xl text-green-500 hover:text-white" />
                 </Link>
               </li>
-              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+              <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
                   Contact
                 </span>
                 <Link href={"/contact"} className="w-full h-full">
-                  <AiFillMessage className="lg:text-xl group-hover:text-white text-indigo-500" />
+                  <AiFillMessage className="lg:text-xl group-hover:text-white w-full h-full text-indigo-500" />
                 </Link>
               </li>
-              <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+              <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
                   Blog
                 </span>
                 <Link href={"/blog"}>
-                  <FaBlog className="lg:text-xl group-hover:text-white text-pink-500" />
+                  <FaBlog className="lg:text-xl group-hover:text-white w-full h-full text-pink-500" />
                 </Link>
               </li>
             </ul>
