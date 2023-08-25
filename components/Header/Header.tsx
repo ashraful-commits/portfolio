@@ -7,8 +7,10 @@ import {
   AiFillMessage,
   AiOutlineMenu,
 } from "react-icons/ai";
+import { FcServices } from "react-icons/fc";
+
 import { BsFillBriefcaseFill } from "react-icons/bs";
-import { FaBlog } from "react-icons/fa";
+import { FaBlog, FaServicestack } from "react-icons/fa";
 import { MdCastForEducation } from "react-icons/md";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
@@ -108,7 +110,7 @@ const Header = () => {
                   Services
                 </span>
                 <Link href={"/services"} className="w-full h-full ">
-                  <BsFillBriefcaseFill className="lg:text-xl text-green-500 hover:text-white" />
+                  <FcServices className="lg:text-xl text-green-500 hover:text-white" />
                 </Link>
               </li>
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
