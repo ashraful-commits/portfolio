@@ -42,7 +42,7 @@ const Experience = () => {
       </div>
       <div className="row flex justify-center dark:bg-transparent dark:bg-opacity-50  w-full h-full p-5 items-center ">
         <div className="col flex justify-center flex-col items-center w-full h-full">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-purple-600 mb-6 md:mb-8 lg:mb-10 capitalize tracking-wide">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-extrabold text-purple-600 mb-6 md:mb-8 lg:mb-10 capitalize tracking-wide">
             Professional Skills
           </h1>
 
