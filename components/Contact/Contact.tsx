@@ -99,7 +99,7 @@ const Contact = () => {
               </motion.h1>
               <form
                 action=""
-                className="flex flex-col gap-7 lg:gap-10 md:gap-10 "
+                className="flex flex-col gap-7 lg:gap-10 md:gap-5 "
               >
                 <motion.input
                   initial={{ opacity: 0, y: 20 }}
