@@ -89,7 +89,7 @@ const Contact = () => {
                   className=" focus:border-b-2 focus:outline-none  bg-transparent text-sm border-b-2 py-2 placeholder:text-white"
                   placeholder="Your message here"
                 />
-                <button className="bg-white text-purple-600 font-bold px-2 lg:px-4 lg:py-2 py-1 hover:bg-purple-600 hover:text-white transition-all duration-100 delay-75">
+                <button className="bg-white text-purple-600 font-bold px-2 lg:px-4 lg:py-2 py-1 hover:bg-purple-600 hover:text-white transition-all duration-100 delay-75 mt-5">
                   Submit
                 </button>
               </form>
