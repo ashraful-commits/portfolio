@@ -52,7 +52,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="flex w-full flex-wrap gap-2 justify-center my-5 py-5 border-b-2 z-20 mt-4">
+          <div className="flex w-full flex-wrap gap-2 justify-center my-5 py-5 border-b-2 border-b-pink-700 z-20 mt-4">
             <button className="category-btn px-4 py-2 text-white bg-pink-500 hover:bg-pink-600 hover:shadow-md transition-colors">
               React
             </button>
@@ -86,7 +86,7 @@ const Blog = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
                   consequatur.
                 </p>
-                <button className="mt-4 bg-purple-500 text-white px-4 text-sm py-2 rounded-md hover:bg-blue-600 transition-colors">
+                <button className="mt-4 bg-pink-700 text-white px-4 text-sm py-2 rounded-md hover:bg-blue-600 transition-colors">
                   Read more
                 </button>
               </div>
