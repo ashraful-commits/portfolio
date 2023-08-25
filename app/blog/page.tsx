@@ -67,7 +67,7 @@ const Blog = () => {
             {[1, 2, 3, 4, 5, 6].map((index) => (
               <div
                 key={index}
-                className="post flex flex-col items-start bg-white dark:bg-gray-900 p-4 rounded-lg shadow-md  w-[80%] md:w-[25%] lg:w-1/5"
+                className="post flex flex-col items-start bg-white dark:bg-gray-900 p-4 rounded-lg shadow-md  w-[80%] md:w-[30%] lg:w-[22.5%]"
               >
                 <Image
                   src={aboutbg}
