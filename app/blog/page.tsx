@@ -63,7 +63,7 @@ const Blog = () => {
               Next.js
             </button>
           </div>
-          <div className="flex flex-col  z-20  md:flex-row md:gap-5 flex-wrap lg:flex-row w-full lg:gap-5 justify-center items-center ">
+          <div className="flex flex-col gap-4 z-20  md:flex-row md:gap-5 flex-wrap lg:flex-row w-full lg:gap-5 justify-center items-center ">
             {[1, 2, 3, 4, 5, 6].map((index) => (
               <div
                 key={index}
