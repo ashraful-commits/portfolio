@@ -89,7 +89,7 @@ const Header = () => {
               </li>
               <li className="p-2 relative  bg-gray-200 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
                 <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
-                  Experience
+                  Skills
                 </span>
                 <Link href={"/experience"} className="w-full h-full">
                   <MdCastForEducation className="lg:text-xl group-hover:text-white text-purple-500" />
