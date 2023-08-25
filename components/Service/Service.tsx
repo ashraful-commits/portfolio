@@ -40,11 +40,11 @@ const Services = () => {
       </div>
       <div className="row flex justify-center dark:bg-transparent dark:bg-opacity-50  w-full h-full p-5 items-center ">
         <div className="col flex justify-center flex-col items-center w-full h-full">
-          <p className="text-pink-300 dark:text-pink-900  text-sm md:text-[16px] lg:text-lg">
+          <p className="text-green-300 dark:text-green-900  text-sm md:text-[16px] lg:text-lg">
             What i will do for you
           </p>
           <h1 className="text-[36px] font-extrabold text-green-500 mb-10 lg:text-[42px]  uppercase md:text-[40px] md:text-3xl">
-            Service
+            My <span className="text-red-500">Services</span>
           </h1>
           <motion.div
             initial={{ y: -20, opacity: 0 }}

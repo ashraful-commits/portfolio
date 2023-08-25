@@ -94,7 +94,7 @@ const Contact = () => {
                 Contact <br />
                 <span className="text-[30px] lg:text-[32px] md:text-[32px]">
                   {" "}
-                  ________Me
+                  <span className="text-orange-500"> ________Me</span>
                 </span>
               </motion.h1>
               <form

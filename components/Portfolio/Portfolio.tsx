@@ -136,7 +136,7 @@ const Portfolio = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            All Projects
+            All <span className="text-red-500">Projects</span>
           </motion.h1>
           <motion.div
             className="menu mt-10 flex justify-center items-center"

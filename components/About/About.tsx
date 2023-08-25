@@ -57,7 +57,7 @@ const About = () => {
             <span className="w-[40px] h-[40px] md:hidden lg:hidden z-[0] border-2 dark:border-white rounded-md dark:bg-black  border-pink-300 border-b-0 border-r-0 bg-white -top-[7%] lg:-top-[8.5%] absolute left-[43%] rotate-45 md:-top-[4.5%] "></span>
             <span className="w-[40px] h-[40px] z-[0] hidden md:block lg:block border-2 dark:border-white  dark:bg-black  rounded-md  border-pink-300  border-r-0 border-t-0 bg-white -left-[1%] lg:-left-[3.5%] absolute top-[43%] rotate-45 md:-left-[7.5%] "></span>
             <h1 className="text-3xl  font-extrabold text-blue-500 mt-2">
-              About Me
+              About <span className="text-red-500">Me</span>
             </h1>
             <p className="text-justify mt-2 dark:text-white text-[14px] text-gray-500 lg:text-[18px] px-4 ">
               Greetings! I&apos;m a skilled MERN developer, on a mission to

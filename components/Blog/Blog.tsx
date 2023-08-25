@@ -144,12 +144,12 @@ const Blog = () => {
       >
         <div className="col flex justify-center flex-col items-center w-full h-full">
           <motion.h1
-            className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-extrabold text-pink-600 mb-6 md:mb-8 lg:mb-10 capitalize tracking-wide"
+            className="text-3xl uppercase md:text-4xl lg:text-5xl xl:text-6xl text-center font-extrabold text-pink-600 mb-6 md:mb-8 lg:mb-10 capitalize tracking-wide"
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            All blog posts
+            All <span className="text-black">posts</span>
           </motion.h1>
 
           <motion.div
@@ -248,17 +248,18 @@ const Blog = () => {
                     />
 
                     <div className="mt-2 w-full flex justify-between ">
-                      <span className="text-xs text-gray-400">Category</span>
+                      <span className="text-xs text-gray-400">
+                        {item.category}
+                      </span>
                       <span className="text-xs text-gray-400">
                         12 September
                       </span>
                     </div>
                     <h1 className="text-md font-semibold mt-2 ">
-                      Lorem ipsum dolor sit amet.
+                      {item.title}
                     </h1>
                     <p className="text-gray-600 text-sm dark:text-gray-400 mt-2">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Iste, consequatur.
+                      {item.description}
                     </p>
                     <button className="mt-4 bg-pink-700 text-white px-4 text-sm py-2 rounded-md hover:bg-blue-600 transition-colors">
                       Read more
