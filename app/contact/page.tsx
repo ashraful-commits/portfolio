@@ -63,9 +63,9 @@ const Contact = () => {
             </div>
             <div className="part2 w-[100%] h-[100%] relative flex flex-col rounded-bl-xl lg:rounded-bl-none md:rounded-bl-none rounded-br-xl  md:rounded-tr-xl lg:rounded-tr-xl md:rounded-br-xl  lg:rounded-br-xl justify-between bg-purple-500 dark:bg-gray-900 dark:bg-opacity-80 lg:p-10 md:p-7 p-5">
               <span className="absolute w-5 h-5 rounded-full bg-white"></span>
-              <h1 className="text-right text-[30px] lg:text-[45px] leading-10 text-white md:text-[40px] font-bold font-serif italic">
+              <h1 className="text-right text-[32px] lg:text-[45px] leading-10 text-white md:text-[40px] font-bold font-serif italic">
                 Contact <br />
-                <span className="text-[25px] lg:text-[30px] md:text-[30px]">
+                <span className="text-[30px] lg:text-[32px] md:text-[32px]">
                   {" "}
                   ________Me
                 </span>
