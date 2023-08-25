@@ -54,7 +54,7 @@ const Contact = () => {
               <Image
                 src={chat}
                 alt="contact"
-                className="w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] rounded-xl mt-5 z-10 object-cover absolute "
+                className="w-[190px] h-[150px] lg:w-[270px] lg:h-[250px] rounded-xl mt-5 z-10 object-cover absolute md:w-[220px]"
               />
               <div className="z-20 absolute top-[10%] flex items-center justify-start flex-col w-full">
                 <motion.p
@@ -77,7 +77,7 @@ const Contact = () => {
                   animate={{ opacity: 1, y: 0 }}
                   initial={{ opacity: 0, y: 20 }}
                   transition={{ delay: 0.5, duration: 0.7 }}
-                  className="flex bg-purple-500 text-white mt-[200px] md:mt-[250px] lg:mt-[330px] px-2 py-1 gap-2 justify-center items-center"
+                  className="flex bg-purple-500 text-white mt-[220px] md:mt-[260px] lg:mt-[340px] px-[12px] py-[6px] text-sm gap-2 rounded-md justify-center items-center"
                 >
                   <FaLink /> Copy email
                 </motion.button>
@@ -99,7 +99,7 @@ const Contact = () => {
               </motion.h1>
               <form
                 action=""
-                className="flex flex-col gap-2 lg:gap-5 md:gap-5 "
+                className="flex flex-col gap-7 lg:gap-10 md:gap-10 "
               >
                 <motion.input
                   initial={{ opacity: 0, y: 20 }}
