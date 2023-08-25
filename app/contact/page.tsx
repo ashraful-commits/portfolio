@@ -43,25 +43,25 @@ const Contact = () => {
       <div className="row flex justify-center dark:bg-transparent dark:bg-opacity-50  w-full h-full p-5 items-center ">
         <div className="col flex justify-center flex-col items-center w-full h-full">
           <div className="contact w-[80vw] h-[80vh] md:w-[85vw] md:h-[50vh] lg:w-[60vw] lg:h-[60vh] flex flex-col md:flex-row lg:flex-row">
-            <div className="part1 w-[100%] bg-indigo-100 z-0 h-[100%]  flex justify-center items-center relative">
+            <div className="part1 w-[100%] bg-purple-100 dark:bg-gray-900 dark:bg-opacity-80 z-0 h-[100%]  flex justify-center items-center relative">
               <Image
                 src={chat}
                 alt="contact"
                 className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] rounded-xl mt-5 z-10 object-cover absolute "
               />
               <div className="z-20 absolute top-[10%] flex items-center justify-start flex-col w-full">
-                <p className="flex justify-center items-center gap-5 text-indigo-500 text-xl">
+                <p className="flex justify-center items-center gap-5 text-purple-500 text-xl">
                   Hi, Let&apos;s Quick chat <AiFillMessage />
                 </p>
-                <p className="text-md mb-2 text-indigo-800">
+                <p className="text-md mb-2 text-purple-800">
                   I reply within 24 hours
                 </p>
-                <button className="flex bg-indigo-500 text-white px-2 py-1 gap-2 justify-center items-center">
+                <button className="flex bg-purple-500 text-white px-2 py-1 gap-2 justify-center items-center">
                   <FaLink /> Copy email
                 </button>
               </div>
             </div>
-            <div className="part2 w-[100%] h-[100%] relative flex flex-col justify-between bg-purple-500  lg:p-10 md:p-7 p-5">
+            <div className="part2 w-[100%] h-[100%] relative flex flex-col justify-between bg-purple-500 dark:bg-gray-900 dark:bg-opacity-80 lg:p-10 md:p-7 p-5">
               <span className="absolute w-5 h-5 rounded-full bg-white"></span>
               <h1 className="text-right text-[45px] leading-10 text-white font-bold font-serif italic">
                 Contact <br />
