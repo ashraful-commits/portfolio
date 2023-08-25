@@ -77,7 +77,7 @@ const Contact = () => {
                   animate={{ opacity: 1, y: 0 }}
                   initial={{ opacity: 0, y: 20 }}
                   transition={{ delay: 0.5, duration: 0.7 }}
-                  className="flex bg-purple-500 text-white mt-[220px] md:mt-[260px] lg:mt-[340px] px-[12px] py-[6px] text-sm gap-2 rounded-md justify-center items-center"
+                  className="flex bg-purple-500 text-white mt-[200px] md:mt-[260px] lg:mt-[340px] px-[12px] py-[6px] text-sm gap-2 rounded-md justify-center items-center"
                 >
                   <FaLink /> Copy email
                 </motion.button>
@@ -129,7 +129,7 @@ const Contact = () => {
                   animate={{ opacity: 1, y: 0 }}
                   initial={{ opacity: 0, y: 20 }}
                   transition={{ delay: 0.5, duration: 0.7 }}
-                  className="bg-white text-purple-600 font-bold px-2 lg:px-4 lg:py-2 py-1 hover:bg-purple-600 hover:text-white transition-all duration-100 delay-75 mt-5"
+                  className="bg-white text-purple-600 mb-5 font-bold px-2 lg:px-4 lg:py-2 py-1 hover:bg-purple-600 hover:text-white transition-all duration-100 delay-75 mt-5"
                 >
                   Submit
                 </motion.button>
