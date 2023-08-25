@@ -42,7 +42,7 @@ const Contact = () => {
       </div>
       <div className="row flex justify-center dark:bg-transparent dark:bg-opacity-50  w-full h-full p-5 items-center ">
         <div className="col flex justify-center flex-col items-center w-full h-full">
-          <div className="contact w-[80vw] h-[80vh] md:w-[85vw] md:h-[50vh] lg:w-[60vw] lg:h-[60vh] flex flex-col md:flex-row lg:flex-row">
+          <div className="contact w-[85vw] h-[85vh] md:w-[85vw] md:h-[50vh] lg:w-[60vw] lg:h-[60vh] flex flex-col md:flex-row lg:flex-row">
             <div className="part1 w-[100%] bg-purple-100 rounded-tl-xl  lg:rounded-tl-xl rounded-tr-xl md:rounded-tr-none lg:rounded-tr-none md:rounded-tl-xl md:rounded-bl-xl dark:bg-gray-900 dark:bg-opacity-80 z-0 h-[100%]  flex justify-center items-center relative">
               <Image
                 src={chat}
