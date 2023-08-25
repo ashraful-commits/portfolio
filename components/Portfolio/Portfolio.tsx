@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import portfoliobg from "../../public/herobg3.jpg";
 import gallary1 from "../../public/gallery1.jpg";
 import gallary2 from "../../public/gallary2.jpg";
@@ -17,6 +17,21 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { it } from "node:test";
 const Portfolio = () => {
   const [selectedType, setSelectedType] = useState("all");
+
+  const [isFixed, setIsfixed] = useState(false);
+
+  const handleFixed = () => {
+    console.log(window.scrollY);
+    if (window.scrollY > 100) {
+      setIsfixed(true);
+    } else {
+      setIsfixed(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleFixed);
+    return () => removeEventListener("scroll", handleFixed);
+  }, []);
   const Projects = [
     {
       id: 1,
@@ -139,7 +154,9 @@ const Portfolio = () => {
             All <span className="text-red-500">Projects</span>
           </motion.h1>
           <motion.div
-            className="menu mt-10 flex justify-center items-center"
+            className={`menu mt-10 flex justify-center z-20 items-center ${
+              isFixed ? "top-0 fixed bg-white" : ""
+            }`}
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
@@ -208,7 +225,7 @@ const Portfolio = () => {
             </ul>
           </motion.div>
           <motion.div
-            className="projects flex justify-center gap-5 flex-wrap items-center mt-10 border-t-2 pt-5 overflow-auto no-scrollbar md:overflow-hidden lg:overflow-hidden border-t-yellow-500"
+            className="projects flex justify-center gap-5 flex-wrap items-center mt-10 border-t-2 pt-5 overflow-auto no-scrollbar min-w-[100%] md:overflow-hidden lg:overflow-hidden border-t-yellow-500"
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
@@ -218,7 +235,7 @@ const Portfolio = () => {
                 return (
                   <motion.div
                     key={index}
-                    className="project w-[100%] min-w-[30%]  lg:w-[23%] md:w-[30%] group h-[25rem] relative lg:h-[20rem]  overflow-hidden"
+                    className="project w-[100%] min-w-[30%] z-[10] lg:w-[23%] md:w-[30%] group h-[25rem] relative lg:h-[20rem]  overflow-hidden"
                     initial={{ y: -20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.8, duration: 0.8 }}
