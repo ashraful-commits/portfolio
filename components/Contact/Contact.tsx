@@ -77,7 +77,7 @@ const Contact = () => {
                   animate={{ opacity: 1, y: 0 }}
                   initial={{ opacity: 0, y: 20 }}
                   transition={{ delay: 0.5, duration: 0.7 }}
-                  className="flex bg-purple-500 text-white mt-[170px] md:mt-[220px] lg:mt-[290px] px-[12px] py-[6px] text-sm gap-2 rounded-md justify-center items-center"
+                  className="flex bg-purple-500 text-white mt-[170px] md:mt-[220px] lg:mt-[330px] px-[12px] py-[6px] text-sm gap-2 rounded-md justify-center items-center"
                 >
                   <FaLink /> Copy email
                 </motion.button>
