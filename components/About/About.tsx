@@ -5,6 +5,7 @@ import ashraful from "../../public/developer.jpg";
 import aboutbg from "../../public/herobg3.jpg";
 import { motion } from "framer-motion";
 import aboutbg3 from "../../public/bgabout2.png";
+
 const About = () => {
   return (
     <motion.div
