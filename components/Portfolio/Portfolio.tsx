@@ -109,7 +109,7 @@ const Portfolio = () => {
   ];
   return (
     <motion.div
-      className="container-fluid  h-screen w-screen flex justify-center relative items-center"
+      className="container-fluid overflow-auto h-auto w-screen flex justify-center relative items-center"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
