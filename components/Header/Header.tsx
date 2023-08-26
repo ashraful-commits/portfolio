@@ -6,6 +6,7 @@ import {
   AiFillInfoCircle,
   AiFillMessage,
   AiOutlineMenu,
+  AiOutlineUser,
 } from "react-icons/ai";
 import { FcServices } from "react-icons/fc";
 
@@ -39,7 +40,7 @@ const Header = () => {
   return (
     <>
       <div
-        className={`col fixed top-0 left-0 flex justify-start  items-center h-full z-[10000] ${
+        className={`col fixed top-0 right-0 flex justify-start  items-center h-full z-[10000] ${
           menu ? "opacity-100" : "opacity-0"
         } lg:opacity-100 md:opacity-100 `}
       >
@@ -79,6 +80,14 @@ const Header = () => {
                 </span>
                 <Link href={"/"} className="w-full h-full">
                   <AiFillHome className="lg:text-xl group-hover:text-white w-full h-full text-red-500" />
+                </Link>
+              </li>
+              <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
+                <span className="absolute -top-[95%] left-[95%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                  Me
+                </span>
+                <Link href={"/me"} className="w-full h-full">
+                  <AiOutlineUser className="lg:text-xl group-hover:text-white w-full h-full text-red-500" />
                 </Link>
               </li>
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
@@ -135,7 +144,7 @@ const Header = () => {
       </div>
       <button
         onClick={handTogglemenu}
-        className=" rounded-full fixed text-dark lg:hidden md:hidden opacity-100 bg-orange-500  p-2 left-[2%] z-[10000] top-[1%] "
+        className=" rounded-full fixed text-dark lg:hidden md:hidden opacity-100 bg-orange-500  p-2 right-[2%] z-[10000] bottom-[1%] "
       >
         {menu ? (
           <AiOutlineClose className="text-white font-bold" />

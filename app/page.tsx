@@ -1,4 +1,10 @@
+import About from "@/components/About/About";
+import Blog from "@/components/Blog/Blog";
+import Contact from "@/components/Contact/Contact";
 import Home from "@/components/Home/Home";
+import Portfolio from "@/components/Portfolio/Portfolio";
+import Services from "@/components/Service/Service";
+import Experience from "@/components/Skill/Skill";
 import { Metadata } from "next";
 import React from "react";
 export const metadata: Metadata = {
@@ -9,6 +15,12 @@ const page = () => {
   return (
     <div>
       <Home />
+      <About />
+      <Experience />
+      <Portfolio />
+      <Services />
+      <Blog />
+      <Contact />
     </div>
   );
 };

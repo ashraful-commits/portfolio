@@ -10,6 +10,8 @@ import gallary6 from "../../public/gallery6.jpg";
 import gallary7 from "../../public/gallary7.jpg";
 import gallary8 from "../../public/gallary8.jpg";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
+
 import aboutbg3 from "../../public/bgabout2.png";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -19,13 +21,15 @@ const Portfolio = () => {
   const [selectedType, setSelectedType] = useState("all");
 
   const [isFixed, setIsfixed] = useState(false);
-
+  const pathname = usePathname();
+  console.log(pathname);
   const handleFixed = () => {
-    console.log(window.scrollY);
-    if (window.scrollY > 100) {
-      setIsfixed(true);
-    } else {
-      setIsfixed(false);
+    if (pathname == "/protfolio") {
+      if (window.scrollY > 100) {
+        setIsfixed(true);
+      } else {
+        setIsfixed(false);
+      }
     }
   };
   useEffect(() => {

@@ -6,7 +6,7 @@ import ashraful from "../../public/developer.jpg";
 import aboutbg from "../../public/herobg3.jpg";
 
 import aboutbg3 from "../../public/bgabout2.png";
-
+import { usePathname } from "next/navigation";
 const Blog = () => {
   interface Post {
     id: number;
@@ -101,13 +101,15 @@ const Blog = () => {
 
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [isFixed, setIsfixed] = useState(false);
+  const pathname = usePathname();
 
   const handleFixed = () => {
-    console.log(window.scrollY);
-    if (window.scrollY > 500) {
-      setIsfixed(true);
-    } else {
-      setIsfixed(false);
+    if (pathname === "/blog") {
+      if (window.scrollY > 500) {
+        setIsfixed(true);
+      } else {
+        setIsfixed(false);
+      }
     }
   };
   useEffect(() => {
