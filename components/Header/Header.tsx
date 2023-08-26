@@ -154,7 +154,7 @@ const Header = () => {
       </button>
       <button
         onClick={handTogglemenu}
-        className=" rounded-full fixed text-dark lg:hidden md:hidden opacity-100   p-2 left-[2%] z-[10000] top-[1%] "
+        className=" rounded-full fixed text-dark lg:hidden md:hidden opacity-100 bg-white dark:bg-gray-900  p-2 left-[2%] z-[10000] top-[1%] "
       >
         {isDarkTheme ? (
           <Image
