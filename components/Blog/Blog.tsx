@@ -149,7 +149,7 @@ const Blog = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            All <span className="text-black">posts</span>
+            All <span className="text-black dark:text-white">posts</span>
           </motion.h1>
 
           <motion.div
