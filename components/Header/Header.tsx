@@ -152,6 +152,24 @@ const Header = () => {
           <AiOutlineMenu className="text-white font-bold" />
         )}
       </button>
+      <button
+        onClick={handTogglemenu}
+        className=" rounded-full fixed text-dark lg:hidden md:hidden opacity-100   p-2 left-[2%] z-[10000] top-[1%] "
+      >
+        {isDarkTheme ? (
+          <Image
+            alt="logo"
+            className="w-6 h-6 lg:w-10 md:w-7 md:h-7 lg:h-10"
+            src={logo}
+          />
+        ) : (
+          <Image
+            alt="logo"
+            className="w-8 h-8 lg:w-10 lg:h-10"
+            src={logoMoon}
+          />
+        )}
+      </button>
     </>
   );
 };
