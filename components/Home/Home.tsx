@@ -87,19 +87,35 @@ const Home: FC = () => {
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
-                <Link className="text-blue-100 relative group" href={""}>
+                <Link
+                  target="blank"
+                  className="text-blue-100 relative group"
+                  href={"https://www.facebook.com/beautyformind/"}
+                >
                   <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-blue-200 w-full h-full"></span>
                   <FaFacebook className="text-3xl hover:scale-150 transition-all duration-100 text-gray-700 rounded-full p-2 group-hover:text-blue-500" />
                 </Link>
-                <Link className="text-blue-100 relative group" href={""}>
+                <Link
+                  target="blank"
+                  className="text-blue-100 relative group"
+                  href={"https://www.linkedin.com/in/beautifulmind/"}
+                >
                   <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-blue-200 w-full h-full"></span>
                   <FaLinkedinIn className="text-3xl hover:scale-150 transition-all duration-100 text-gray-700  p-2 group-hover:text-blue-900" />
                 </Link>
-                <Link className="text-blue-100 relative group" href={""}>
+                <Link
+                  target="blank"
+                  className="text-blue-100 relative group"
+                  href={"https://github.com/ashraful-commits"}
+                >
                   <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-blue-200 w-full h-full"></span>
                   <FaGithub className="text-3xl hover:scale-150 transition-all duration-100 text-gray-700 rounded-full p-2 group-hover:text-gray-500" />
                 </Link>
-                <Link className="text-blue-100 relative group" href={""}>
+                <Link
+                  target="blank"
+                  className="text-blue-100 relative group"
+                  href={"https://developerashraful.vercel.app/"}
+                >
                   <span className="absolute top-0 left-0 z-[-1] rounded-full group-hover:bg-white transition-all delay-75 bg-blue-200 w-full h-full"></span>
                   <FaExternalLinkAlt className="text-3xl hover:scale-150 transition-all duration-100 text-gray-700  p-2 group-hover:text-orange-500" />
                 </Link>
@@ -110,7 +126,7 @@ const Home: FC = () => {
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
               >
-                Hire
+                <Link href={"/contact"}>Hire</Link>
               </motion.button>
             </motion.div>
             <div className="w-[50%]h-auto"></div>

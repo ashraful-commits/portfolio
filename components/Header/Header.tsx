@@ -46,14 +46,14 @@ const Header = () => {
       >
         <div className="w-[4rem] flex flex-col transition-all duration-100 delay-75  bg-gray-200 dark:bg-gray-700  text-white h-full items-center justify-center">
           <div className="logo h-[100px] group  relative ">
-            <span className="absolute -top-[60%] cursor-pointer left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-xl rounded-bl-none text-white">
+            <span className="absolute -top-[60%] cursor-pointer right-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-xl rounded-br-none text-white">
               {isDarkTheme ? "light" : "dark"}
             </span>
 
             <ToggleButton />
           </div>
           <div className="logo h-[100px] group relative ">
-            <span className="absolute -top-[60%] cursor-pointer left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-xl rounded-bl-none text-white">
+            <span className="absolute -top-[60%] cursor-pointer right-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-xl rounded-br-none text-white">
               Developer Ashraful
             </span>
             <Link href={"/"}>
@@ -75,7 +75,7 @@ const Header = () => {
           <div className="menu   ">
             <ul className="flex flex-col gap-5 ">
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[95%] left-[95%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                <span className="absolute -top-[95%] right-[95%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-br-none text-white">
                   Home
                 </span>
                 <Link href={"/"} className="w-full h-full">
@@ -83,7 +83,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[95%] left-[95%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                <span className="absolute -top-[95%] right-[95%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-br-none text-white">
                   Me
                 </span>
                 <Link href={"/me"} className="w-full h-full">
@@ -91,7 +91,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                <span className="absolute -top-[100%] right-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-br-none text-white">
                   About
                 </span>
                 <Link href={"/about"} className="w-full h-full">
@@ -99,7 +99,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                <span className="absolute -top-[100%] right-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-br-none text-white">
                   Skills
                 </span>
                 <Link href={"/experience"} className="w-full h-full">
@@ -107,7 +107,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                <span className="absolute -top-[100%] right-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-br-none text-white">
                   Portfolio
                 </span>
                 <Link href={"/protfolio"} className="w-full h-full ">
@@ -115,7 +115,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                <span className="absolute -top-[100%] right-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-br-none text-white">
                   Services
                 </span>
                 <Link href={"/services"} className="w-full h-full ">
@@ -123,7 +123,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                <span className="absolute -top-[100%] right-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-br-none text-white">
                   Contact
                 </span>
                 <Link href={"/contact"} className="w-full h-full">
@@ -131,7 +131,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="p-2 relative  bg-gray-100 cursor-pointer group text-black  rounded-md hover:bg-red-600 hover:text-white transition-all duration-100 delay-100">
-                <span className="absolute -top-[100%] left-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-bl-none text-white">
+                <span className="absolute -top-[100%] right-[120%] border border-gray-300 animate-bounce group-hover:block hidden bg-red-500  px-4 py-1  rounded-full rounded-br-none text-white">
                   Blog
                 </span>
                 <Link href={"/blog"}>

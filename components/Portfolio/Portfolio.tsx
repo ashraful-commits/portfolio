@@ -173,9 +173,7 @@ const Portfolio = () => {
                   onClick={() => setSelectedType("all")}
                   className=" bg-gray-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
                 >
-                  <Link className="text-white group-hover:text-white" href={""}>
-                    All
-                  </Link>
+                  All
                 </button>
               </li>
               <li>
@@ -183,9 +181,7 @@ const Portfolio = () => {
                   onClick={() => setSelectedType("portfolio")}
                   className=" bg-green-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
                 >
-                  <Link className="text-white group-hover:text-white" href={""}>
-                    Portfolio
-                  </Link>
+                  Portfolio
                 </button>
               </li>
               <li>
@@ -193,9 +189,7 @@ const Portfolio = () => {
                   onClick={() => setSelectedType("e-commerce")}
                   className=" bg-pink-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
                 >
-                  <Link className="text-white group-hover:text-white" href={""}>
-                    E-Commerce
-                  </Link>
+                  E-Commerce
                 </button>
               </li>
               <li>
@@ -203,9 +197,7 @@ const Portfolio = () => {
                   onClick={() => setSelectedType("social")}
                   className=" bg-purple-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
                 >
-                  <Link className="text-white group-hover:text-white" href={""}>
-                    Social
-                  </Link>
+                  Social
                 </button>
               </li>
               <li>
@@ -213,9 +205,7 @@ const Portfolio = () => {
                   onClick={() => setSelectedType("ftp-server")}
                   className=" bg-blue-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
                 >
-                  <Link className="text-white group-hover:text-white" href={""}>
-                    FTP Server
-                  </Link>
+                  FTP Server
                 </button>
               </li>
               <li>
@@ -223,9 +213,7 @@ const Portfolio = () => {
                   onClick={() => setSelectedType("education")}
                   className=" bg-sky-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
                 >
-                  <Link className="text-white group-hover:text-white" href={""}>
-                    Education
-                  </Link>
+                  Education
                 </button>
               </li>
             </ul>

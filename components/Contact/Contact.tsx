@@ -142,7 +142,10 @@ const Contact = () => {
                     transition={{ delay: 0.3, duration: 0.7 }}
                     className="group"
                   >
-                    <Link href="/">
+                    <Link
+                      target="blank"
+                      href={"https://www.facebook.com/beautyformind/"}
+                    >
                       <FaFacebook className="text-white text-lg group-hover:text-blue-500 scale-100 group-hover:scale-110 transition-all duration-100 delay-100" />
                     </Link>
                   </motion.li>
@@ -152,7 +155,10 @@ const Contact = () => {
                     transition={{ delay: 0.2, duration: 0.7 }}
                     className="group"
                   >
-                    <Link href="/">
+                    <Link
+                      target="blank"
+                      href="https://www.linkedin.com/in/beautifulmind/"
+                    >
                       <FaLinkedinIn className="text-white text-lg group-hover:text-blue-800 scale-100 group-hover:scale-125 transition-all duration-100 delay-100" />
                     </Link>
                   </motion.li>
@@ -162,7 +168,7 @@ const Contact = () => {
                     transition={{ delay: 0.4, duration: 0.7 }}
                     className="group"
                   >
-                    <Link href="/">
+                    <Link target="blank" href="">
                       <FaTwitter className="text-white text-lg group-hover:text-sky-500 scale-100 group-hover:scale-125 transition-all duration-100 delay-100" />
                     </Link>
                   </motion.li>
@@ -172,7 +178,10 @@ const Contact = () => {
                     transition={{ delay: 0.6, duration: 0.7 }}
                     className="group"
                   >
-                    <Link href="/">
+                    <Link
+                      target="blank"
+                      href="https://github.com/ashraful-commits"
+                    >
                       <FaGithub className="text-white text-lg group-hover:text-black scale-100 group-hover:scale-125 transition-all duration-100 delay-100" />
                     </Link>
                   </motion.li>
@@ -182,7 +191,7 @@ const Contact = () => {
                     transition={{ delay: 0.3, duration: 0.7 }}
                     className="group"
                   >
-                    <Link href="/">
+                    <Link target="blank" href="https://wa.me/01955127330">
                       <FaWhatsapp className="text-white text-lg group-hover:text-green-500 scale-100 group-hover:scale-125 transition-all duration-100 delay-100" />
                     </Link>
                   </motion.li>
