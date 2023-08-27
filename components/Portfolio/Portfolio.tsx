@@ -171,7 +171,7 @@ const Portfolio = () => {
               <li>
                 <button
                   onClick={() => setSelectedType("all")}
-                  className=" bg-gray-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
+                  className=" bg-gray-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white text-gray-100 px-2 py-1"
                 >
                   All
                 </button>
@@ -179,7 +179,7 @@ const Portfolio = () => {
               <li>
                 <button
                   onClick={() => setSelectedType("portfolio")}
-                  className=" bg-green-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
+                  className=" bg-green-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white text-gray-100 px-2 py-1"
                 >
                   Portfolio
                 </button>
@@ -187,7 +187,7 @@ const Portfolio = () => {
               <li>
                 <button
                   onClick={() => setSelectedType("e-commerce")}
-                  className=" bg-pink-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
+                  className=" bg-pink-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white text-gray-100 px-2 py-1"
                 >
                   E-Commerce
                 </button>
@@ -195,7 +195,7 @@ const Portfolio = () => {
               <li>
                 <button
                   onClick={() => setSelectedType("social")}
-                  className=" bg-purple-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
+                  className=" bg-purple-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white text-gray-100 px-2 py-1"
                 >
                   Social
                 </button>
@@ -203,7 +203,7 @@ const Portfolio = () => {
               <li>
                 <button
                   onClick={() => setSelectedType("ftp-server")}
-                  className=" bg-blue-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
+                  className=" bg-blue-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white text-gray-100 px-2 py-1"
                 >
                   FTP Server
                 </button>
@@ -211,7 +211,7 @@ const Portfolio = () => {
               <li>
                 <button
                   onClick={() => setSelectedType("education")}
-                  className=" bg-sky-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white px-2 py-1"
+                  className=" bg-sky-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white text-gray-100 px-2 py-1"
                 >
                   Education
                 </button>

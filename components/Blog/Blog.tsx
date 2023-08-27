@@ -189,9 +189,9 @@ const Blog = () => {
             </motion.div>
           </motion.div>
           <motion.div
-            className={`flex w-full flex-wrap gap-2 justify-center  py-5 border-b-2 border-b-pink-700 z-20  ${
+            className={`flex w-full bg-white dark:bg-gray-900 flex-wrap gap-2 justify-center  py-5  z-20  ${
               isFixed
-                ? "fixed top-0 left-0 bg-white dark:bg-gray-900 mt-0 transition-all duration-1000"
+                ? "fixed top-0 left-0 bg-white border-b-2  border-b-pink-700 dark:bg-gray-900 mt-0 transition-all duration-1000"
                 : "my-5  mt-4"
             }`}
             initial={{ opacity: 0, y: -20 }}

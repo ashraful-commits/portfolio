@@ -4,9 +4,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import Footer from "@/components/Footer/Footer";
-import Providers from "./ThemeProvider";
-import ThemProvider from "./ThemeProvider";
 
+import ThemProvider from "./ThemeProvider";
+import { Provider } from "react-redux";
+import store from "./store/store";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

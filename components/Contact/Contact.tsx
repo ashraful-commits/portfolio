@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
 import chat from "../../public/chat.jpg";
 import aboutbg from "../../public/herobg3.jpg";
 import { motion } from "framer-motion";
 import aboutbg3 from "../../public/bgabout2.png";
+import emailjs from "@emailjs/browser";
 import {
   FaCloudUploadAlt,
   FaCode,
@@ -24,7 +25,60 @@ import {
 } from "react-icons/fa";
 import { AiFillMessage } from "react-icons/ai";
 import Link from "next/link";
+import CopyToClipboard from "../Clipboard/Clipboard";
 const Contact = () => {
+  // const [input, setInput] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  //   subject: "",
+  // });
+  // const [createMessage] = useCreateMessageMutation();
+
+  // const form = useRef();
+  // const handleInput = (e) => {
+  //   setInput((prev) => ({
+  //     ...prev,
+  //     [e.target.name]: e.target.value,
+  //   }));
+  // };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (!input.name) {
+  //     return Toastify("Name field required!", "error");
+  //   }
+  //   if (!input.email) {
+  //     return Toastify("Email field required!", "error");
+  //   }
+  //   if (!input.subject) {
+  //     return Toastify("Subject field required!", "error");
+  //   }
+  //   if (!input.message) {
+  //     return Toastify("Subject field required!", "error");
+  //   }
+  //   if (!input.name || !input.email || !input.subject || !input.message) {
+  //     return Toastify("All fields are required!", "error");
+  //   } else {
+  //     createMessage(input);
+  //     emailjs
+  //       .sendForm(
+  //         "service_bk53txh",
+  //         "template_uf5fiaf",
+  //         form.current,
+  //         "BnsmL_qV4-rKJWsjb"
+  //       )
+  //       .then(
+  //         (result) => {
+  //           console.log(result.text);
+  //           Toastify("You are connected!", "success");
+  //         },
+  //         (error) => {
+  //           console.log(error.text);
+  //           Toastify(error.text, "error");
+  //         }
+  //       );
+  //   }
+  // };
   return (
     <motion.div
       className="container-fluid min-h-screen max-h-auto md:ml-[2rem] px w-screen flex justify-center relative overflow-auto   items-center"
@@ -79,7 +133,8 @@ const Contact = () => {
                   transition={{ delay: 0.5, duration: 0.7 }}
                   className="flex bg-purple-500 text-white mt-[170px] md:mt-[220px] lg:mt-[330px] px-[12px] py-[6px] text-sm gap-2 rounded-md justify-center items-center"
                 >
-                  <FaLink /> Copy email
+                  <CopyToClipboard />
+                  <FaLink />
                 </motion.button>
               </div>
             </div>
@@ -98,6 +153,7 @@ const Contact = () => {
                 </span>
               </motion.h1>
               <form
+                // ref={form}
                 action=""
                 className="flex flex-col gap-7 lg:gap-10 md:gap-5 "
               >
