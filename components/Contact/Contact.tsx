@@ -1,11 +1,13 @@
 "use client";
 import Image from "next/image";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import chat from "../../public/chat.jpg";
 import aboutbg from "../../public/herobg3.jpg";
 import { motion } from "framer-motion";
 import aboutbg3 from "../../public/bgabout2.png";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import {
   FaCloudUploadAlt,
   FaCode,
@@ -26,59 +28,96 @@ import {
 import { AiFillMessage } from "react-icons/ai";
 import Link from "next/link";
 import CopyToClipboard from "../Clipboard/Clipboard";
+import axios from "axios";
 const Contact = () => {
-  // const [input, setInput] = useState({
-  //   name: "",
-  //   email: "",
-  //   message: "",
-  //   subject: "",
-  // });
-  // const [createMessage] = useCreateMessageMutation();
-
-  // const form = useRef();
-  // const handleInput = (e) => {
-  //   setInput((prev) => ({
-  //     ...prev,
-  //     [e.target.name]: e.target.value,
-  //   }));
-  // };
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   if (!input.name) {
-  //     return Toastify("Name field required!", "error");
-  //   }
-  //   if (!input.email) {
-  //     return Toastify("Email field required!", "error");
-  //   }
-  //   if (!input.subject) {
-  //     return Toastify("Subject field required!", "error");
-  //   }
-  //   if (!input.message) {
-  //     return Toastify("Subject field required!", "error");
-  //   }
-  //   if (!input.name || !input.email || !input.subject || !input.message) {
-  //     return Toastify("All fields are required!", "error");
-  //   } else {
-  //     createMessage(input);
-  //     emailjs
-  //       .sendForm(
-  //         "service_bk53txh",
-  //         "template_uf5fiaf",
-  //         form.current,
-  //         "BnsmL_qV4-rKJWsjb"
-  //       )
-  //       .then(
-  //         (result) => {
-  //           console.log(result.text);
-  //           Toastify("You are connected!", "success");
-  //         },
-  //         (error) => {
-  //           console.log(error.text);
-  //           Toastify(error.text, "error");
-  //         }
-  //       );
-  //   }
-  // };
+  const [input, setInput] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const handleInput = (e) => {
+    setInput((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const { name, email, message } = input;
+    if (!name) {
+      toast("Name field required!", {
+        position: "bottom-center",
+        autoClose: 500,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+    } else if (!email) {
+      toast("Email field required!", {
+        position: "bottom-center",
+        autoClose: 500,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
+    } else if (!message) {
+      toast("Message field required!", {
+        position: "bottom-center",
+        autoClose: 500,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+    } else {
+      const res = fetch(
+        "https://portfolio-6a5dc-default-rtdb.firebaseio.com/userDataRecords.json",
+        {
+          method: "POST",
+          headers: {
+            "content-Type": "aplication/json",
+          },
+          body: JSON.stringify({ name, email, message }),
+        }
+      );
+      if (res) {
+        toast("Thank you!", {
+          position: "bottom-center",
+          autoClose: 500,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
+        setInput({
+          name: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        toast("🦄sorry!try again", {
+          position: "bottom-center",
+          autoClose: 500,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
+      }
+    }
+  };
   return (
     <motion.div
       className="container-fluid min-h-screen max-h-auto md:ml-[2rem] px w-screen flex justify-center relative overflow-auto   items-center"
@@ -87,6 +126,20 @@ const Contact = () => {
       exit={{ opacity: 0 }}
       transition={{ delay: 0.4, duration: 0.5 }}
     >
+      <ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
+      {/* Same as */}
+      <ToastContainer />
       <div className="about-bg absolute  w-full h-full top-0  left-0 z-[-1]">
         <Image
           src={aboutbg}
@@ -153,15 +206,18 @@ const Contact = () => {
                 </span>
               </motion.h1>
               <form
-                // ref={form}
                 action=""
+                onSubmit={handleSubmit}
                 className="flex flex-col gap-7 lg:gap-10 md:gap-5 "
               >
                 <motion.input
+                  name="name"
+                  value={input.name}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3, duration: 0.7 }}
                   type="text"
+                  onChange={handleInput}
                   className=" focus:border-b-2 focus:outline-none  bg-transparent text-sm border-b-2 py-2 placeholder:text-white"
                   placeholder="Your Name"
                 />
@@ -170,10 +226,16 @@ const Contact = () => {
                   initial={{ opacity: 0, y: 20 }}
                   transition={{ delay: 0.4, duration: 0.7 }}
                   type="text"
+                  name="email"
+                  onChange={handleInput}
+                  value={input.email}
                   className=" focus:border-b-2 focus:outline-none  bg-transparent text-sm border-b-2 py-2 placeholder:text-white"
                   placeholder="Your Email"
                 />
                 <motion.input
+                  name="message"
+                  value={input.message}
+                  onChange={handleInput}
                   animate={{ opacity: 1, y: 0 }}
                   initial={{ opacity: 0, y: 20 }}
                   transition={{ delay: 0.5, duration: 0.7 }}
@@ -185,6 +247,7 @@ const Contact = () => {
                   animate={{ opacity: 1, y: 0 }}
                   initial={{ opacity: 0, y: 20 }}
                   transition={{ delay: 0.5, duration: 0.7 }}
+                  type="submit"
                   className="bg-white text-purple-600 mb-5 font-bold px-2 lg:px-4 lg:py-2 py-1 hover:bg-purple-600 hover:text-white transition-all duration-100 delay-75 mt-5"
                 >
                   Submit
