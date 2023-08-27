@@ -35,13 +35,13 @@ const Contact = () => {
     email: "",
     message: "",
   });
-  const handleInput = (e) => {
+  const handleInput = (e: any) => {
     setInput((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
     }));
   };
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     const { name, email, message } = input;
     if (!name) {
@@ -78,7 +78,7 @@ const Contact = () => {
         theme: "light",
       });
     } else {
-      const res = fetch(
+      const res = await fetch(
         "https://portfolio-6a5dc-default-rtdb.firebaseio.com/userDataRecords.json",
         {
           method: "POST",
