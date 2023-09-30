@@ -1,6 +1,7 @@
 import About from "@/components/About/About";
 import Blog from "@/components/Blog/Blog";
 import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
 import Home from "@/components/Home/Home";
 import Portfolio from "@/components/Portfolio/Portfolio";
 import Services from "@/components/Service/Service";
@@ -21,6 +22,7 @@ const page = () => {
       <Services />
       <Blog />
       <Contact />
+      <Footer />
     </div>
   );
 };

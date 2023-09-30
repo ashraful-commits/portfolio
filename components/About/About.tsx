@@ -9,7 +9,7 @@ import aboutbg3 from "../../public/bgabout2.png";
 const About = () => {
   return (
     <motion.div
-      className="container-fluid min-h-screen max-h-auto px w-screen flex justify-center relative overflow-auto   items-center"
+      className="container-fluid min-h-screen max-h-auto px w-screen flex justify-center relative overflow-auto items-center"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}

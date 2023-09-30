@@ -1,14 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import portfoliobg from "../../public/herobg3.jpg";
-import gallary1 from "../../public/gallery1.jpg";
-import gallary2 from "../../public/gallary2.jpg";
-import gallary3 from "../../public/gallery3.jpg";
-import gallary4 from "../../public/gallary4.jpg";
-import gallary5 from "../../public/gallery5.jpg";
-import gallary6 from "../../public/gallery6.jpg";
-import gallary7 from "../../public/gallary7.jpg";
-import gallary8 from "../../public/gallary8.jpg";
+import gallary1 from "../../public/movix.png";
+import gallary2 from "../../public/media.png";
+import gallary3 from "../../public/admin.png";
+import gallary4 from "../../public/admin dashboard.png";
+import gallary5 from "../../public/devashraf.png";
+import gallary6 from "../../public/ecom.png";
+
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
@@ -50,80 +49,53 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      name: "Movix",
-      live: "https://movixproject01.netlify.app/",
-      github: "https://github.com/ashraful-commits/movix",
-      shortdis:
-        "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
+      name: "MediaKites",
+      live: "https://media-kits-app-clone.vercel.app/",
+      github: "https://github.com/ashraful-commits/mediaKitsapp-clone.git",
+      shortdis: "It's social media app.You can share your via with that!",
       preview: gallary2,
+      tools: ["React", "Redux toolkit", "Firebase"],
+      type: "social",
+    },
+    {
+      id: 3,
+      name: "Admin Dashboard",
+      live: "https://admin-dashboard-seven-kappa.vercel.app/login",
+      github: "https://github.com/ashraful-commits/admin-dashboard.git",
+      shortdis: "It's an admin dashboard",
+      preview: gallary3,
+      tools: ["React", "Redux toolkit", "React query"],
+      type: "e-commerce",
+    },
+    {
+      id: 4,
+      name: "Admin Dashboard",
+      live: "https://wolmart-dashboard.vercel.app/",
+      github: "https://github.com/ashraful-commits/movix",
+      shortdis: "It's an admin dashboard for E-commerce website",
+      preview: gallary4,
       tools: ["React", "Redux toolkit"],
       type: "e-commerce",
     },
     {
-      id: 3,
-      name: "Movix",
-      live: "https://movixproject01.netlify.app/",
-      github: "https://github.com/ashraful-commits/movix",
-      shortdis:
-        "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
-      preview: gallary3,
-      tools: ["React", "Redux toolkit"],
-      type: "social",
-    },
-    {
-      id: 4,
-      name: "Movix",
-      live: "https://movixproject01.netlify.app/",
-      github: "https://github.com/ashraful-commits/movix",
-      shortdis:
-        "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
-      preview: gallary4,
-      tools: ["React", "Redux toolkit"],
-      type: "education",
-    },
-    {
       id: 5,
-      name: "Movix",
-      live: "https://movixproject01.netlify.app/",
-      github: "https://github.com/ashraful-commits/movix",
-      shortdis:
-        "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
+      name: "PortFolio",
+      live: "https://developerashraful.vercel.app/",
+      github: "https://github.com/ashraful-commits/portfolio.git",
+      shortdis: "This is protFolio",
       preview: gallary5,
-      tools: ["React", "Redux toolkit"],
+      tools: ["NextJs", "Redux toolkit"],
       type: "portfolio",
     },
     {
       id: 6,
-      name: "Movix",
-      live: "https://movixproject01.netlify.app/",
-      github: "https://github.com/ashraful-commits/movix",
-      shortdis:
-        "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
+      name: "E-Commerce",
+      live: "https://e-comwebapp.vercel.app/",
+      github: "https://github.com/ashraful-commits/e-commerce-web.git",
+      shortdis: "It's E-commerce App",
       preview: gallary6,
       tools: ["React", "Redux toolkit"],
       type: "e-commerce",
-    },
-    {
-      id: 7,
-      name: "Movix",
-      live: "https://movixproject01.netlify.app/",
-      github: "https://github.com/ashraful-commits/movix",
-      shortdis:
-        "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
-      preview: gallary7,
-      tools: ["React", "Redux toolkit"],
-      type: "social",
-    },
-    {
-      id: 8,
-      name: "Movix",
-      live: "https://movixproject01.netlify.app/",
-      github: "https://github.com/ashraful-commits/movix",
-      shortdis:
-        "It is a ftp server realted project.It's made with tmdb api. Here you can watch Movie Trailer",
-      preview: gallary8,
-      tools: ["React", "Redux toolkit"],
-      type: "education",
     },
   ];
   return (
@@ -264,13 +236,21 @@ const Portfolio = () => {
                         </div>
 
                         <div className="button flex gap-2 mt-5">
-                          <button className="bg-white text-yellow-900 px-2 flex gap-2 justify-center items-center py-1">
+                          <Link
+                            target="blank"
+                            href={`${item.live}`}
+                            className="bg-white text-yellow-900 px-2 flex gap-2 justify-center items-center py-1"
+                          >
                             <FaExternalLinkAlt /> Live
-                          </button>
-                          <button className="bg-white text-yellow-900 px-2 flex gap-2 justify-center items-center py-1">
+                          </Link>
+                          <Link
+                            target="blank"
+                            href={`${item.github}`}
+                            className="bg-white text-yellow-900 px-2 flex gap-2 justify-center items-center py-1"
+                          >
                             <FaGithub />
                             Github
-                          </button>
+                          </Link>
                         </div>
                       </div>
                     </div>
