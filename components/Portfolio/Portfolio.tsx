@@ -60,7 +60,7 @@ const Portfolio = () => {
     {
       id: 3,
       name: "Admin Dashboard",
-      live: "https://admin-dashboard-seven-kappa.vercel.app/login",
+      live: "https://admin-dashboard-seven-kappa.vercel.app/",
       github: "https://github.com/ashraful-commits/admin-dashboard.git",
       shortdis: "It's an admin dashboard",
       preview: gallary3,
@@ -201,14 +201,14 @@ const Portfolio = () => {
                 return (
                   <motion.div
                     key={index}
-                    className="project w-[100%] min-w-[30%] z-[10] lg:w-[23%] md:w-[30%] group h-[25rem] relative lg:h-[20rem]  overflow-hidden"
+                    className="project shrink-0 w-[100%] min-w-[30%] z-[10] lg:w-[23%] md:w-[30%] group h-[25rem] relative lg:h-[20rem]  overflow-hidden"
                     initial={{ y: -20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.8, duration: 0.8 }}
                     layout
                   >
                     <div className=" p-1 dark:bg-gray-200 bg-gray-100 w-full h-full">
-                      <div className=" overflow-hidden w-full h-full">
+                      <div className=" overflow-hidden w-full h-full flex items-start">
                         <Image
                           className="w-full h-full object-cover"
                           src={item.preview}
