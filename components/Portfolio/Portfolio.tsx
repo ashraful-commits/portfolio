@@ -7,6 +7,7 @@ import gallary3 from "../../public/admin.png";
 import gallary4 from "../../public/admin dashboard.png";
 import gallary5 from "../../public/devashraf.png";
 import gallary6 from "../../public/ecom.png";
+import gallary7 from "../../public/social app.png";
 
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -103,7 +104,7 @@ const Portfolio = () => {
       live: "https://logo-project-assignment.vercel.app/",
       github: "https://github.com/ashraful-commits/LOGO_PROJECT.git",
       shortdis: "It's social media app.You can share your via with that!",
-      preview: gallary2,
+      preview: gallary7,
       tools: ["React", "Firebase"],
       type: "social",
     },
