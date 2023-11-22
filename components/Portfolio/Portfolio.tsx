@@ -98,16 +98,6 @@ const Portfolio = () => {
       tools: ["React", "Redux toolkit"],
       type: "e-commerce",
     },
-    {
-      id: 7,
-      name: "Logo",
-      live: "https://logo-project-assignment.vercel.app/",
-      github: "https://github.com/ashraful-commits/LOGO_PROJECT.git",
-      shortdis: "It's social media app.You can share your via with that!",
-      preview: gallary7,
-      tools: ["React", "Firebase"],
-      type: "social",
-    },
   ];
   return (
     <motion.div
