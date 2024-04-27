@@ -93,11 +93,11 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      name: "ashrfulgalaxy",
+      name: "ashraful galaxy",
       live: "https://ashraful-galaxy.vercel.app/",
       github: "https://github.com/ashraful-commits/galaxy-portfolio.git",
       shortdis: "This is protFolio",
-      preview: gallary8,
+      preview: gallary9,
       tools: ["NextJs", "emailjs"],
       type: "portfolio",
     },
