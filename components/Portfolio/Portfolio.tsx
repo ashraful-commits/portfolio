@@ -8,6 +8,7 @@ import gallary4 from "../../public/admin dashboard.png";
 import gallary5 from "../../public/devashraf.png";
 import gallary6 from "../../public/ecom.png";
 import gallary7 from "../../public/social app.png";
+import gallary8 from "../../public/potfolio.png";
 
 import gallary8 from "../../public/client-management.jpg";
 
@@ -82,12 +83,22 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      name: "PortFolio",
+      name: "developer ashraful",
       live: "https://developerashraful.vercel.app/",
       github: "https://github.com/ashraful-commits/portfolio.git",
       shortdis: "This is protFolio",
       preview: gallary5,
       tools: ["NextJs", "Redux toolkit"],
+      type: "portfolio",
+    },
+    {
+      id: 5,
+      name: "ashrfulgalaxy",
+      live: "https://ashraful-galaxy.vercel.app/",
+      github: "https://github.com/ashraful-commits/galaxy-portfolio.git",
+      shortdis: "This is protFolio",
+      preview: gallary5,
+      tools: ["NextJs", "emailjs"],
       type: "portfolio",
     },
     {
