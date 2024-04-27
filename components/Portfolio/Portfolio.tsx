@@ -171,6 +171,14 @@ const Portfolio = () => {
               </li>
               <li>
                 <button
+                  onClick={() => setSelectedType("Dashboard")}
+                  className=" bg-pink-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white text-gray-100 px-2 py-1"
+                >
+                  Dashboard
+                </button>
+              </li>
+              <li>
+                <button
                   onClick={() => setSelectedType("e-commerce")}
                   className=" bg-pink-500 group hover:bg-yellow-500 transition-all duration-100 font-bold hover:text-white text-gray-100 px-2 py-1"
                 >
