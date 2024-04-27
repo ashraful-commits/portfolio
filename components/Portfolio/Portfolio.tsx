@@ -8,8 +8,8 @@ import gallary4 from "../../public/admin dashboard.png";
 import gallary5 from "../../public/devashraf.png";
 import gallary6 from "../../public/ecom.png";
 import gallary7 from "../../public/social app.png";
-import gallary7 from "../../public/social app.png";
-import gallary7 from "../../public/client-management.jpg";
+
+import gallary8 from "../../public/client-management.jpg";
 
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -106,7 +106,7 @@ const Portfolio = () => {
       live: "https://management-clients.vercel.app/",
       github: "https://github.com/ashraful-commits/management-3.git",
       shortdis: "It's E-commerce App",
-      preview: gallary6,
+      preview: gallary8,
       tools: ["Next", "Express"],
       type: "Dashboard",
     },
