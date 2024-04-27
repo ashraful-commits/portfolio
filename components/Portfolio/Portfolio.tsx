@@ -97,7 +97,7 @@ const Portfolio = () => {
       live: "https://ashraful-galaxy.vercel.app/",
       github: "https://github.com/ashraful-commits/galaxy-portfolio.git",
       shortdis: "This is protFolio",
-      preview: gallary5,
+      preview: gallary8,
       tools: ["NextJs", "emailjs"],
       type: "portfolio",
     },
