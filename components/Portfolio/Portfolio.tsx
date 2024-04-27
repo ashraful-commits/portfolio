@@ -8,6 +8,8 @@ import gallary4 from "../../public/admin dashboard.png";
 import gallary5 from "../../public/devashraf.png";
 import gallary6 from "../../public/ecom.png";
 import gallary7 from "../../public/social app.png";
+import gallary7 from "../../public/social app.png";
+import gallary7 from "../../public/client-management.jpg";
 
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -97,6 +99,16 @@ const Portfolio = () => {
       preview: gallary6,
       tools: ["React", "Redux toolkit"],
       type: "e-commerce",
+    },
+    {
+      id: 6,
+      name: "client management",
+      live: "https://management-clients.vercel.app/",
+      github: "https://github.com/ashraful-commits/management-3.git",
+      shortdis: "It's E-commerce App",
+      preview: gallary6,
+      tools: ["Next", "Express"],
+      type: "Dashboard",
     },
   ];
   return (
