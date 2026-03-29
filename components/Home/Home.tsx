@@ -41,7 +41,7 @@ const Home: FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <Image
-                className="w-[15rem] hover:scale-110 transition-all delay-75 hover:skew-z-6  lg:w-[20rem] mt-20  h-auto "
+                className="w-[15rem] hover:scale-110 rounded-full transition-all delay-75 hover:skew-z-6  lg:w-[20rem] mt-20  h-auto "
                 src={myphoto}
                 alt="photo"
               />
